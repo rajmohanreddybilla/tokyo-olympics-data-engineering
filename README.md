@@ -11,10 +11,6 @@ This project takes Tokyo Olympics data from GitHub, ingests the data into Azure 
 * Azure Databricks
 * Apache Spark / PySpark
 * Azure Synapse Analytics
-* Python
-* SQL
-* GitHub
-* Parquet
 
 ## Project Architecture
 
@@ -68,38 +64,6 @@ Through this project, I gained hands-on experience with:
 * Writing transformed data as Parquet
 * Using Azure Synapse Analytics for SQL analysis
 * Understanding how different Azure services work together in a data engineering pipeline
-
-## Project Structure
-
-```text
-tokyo-olympics-data-engineering/
-│
-├── architecture/
-├── adf/
-│   ├── pipelines/
-│   └── screenshots/
-├── databricks/
-│   ├── notebooks/
-│   └── screenshots/
-├── synapse/
-│   ├── queries/
-│   └── screenshots/
-└── README.md
-```
-
-## Future Improvements
-
-Some improvements I would like to make to this project include:
-
-* Adding data quality checks
-* Adding incremental data ingestion
-* Improving error handling and monitoring
-* Using Azure Key Vault for secrets
-* Adding a Bronze, Silver and Gold architecture
-* Creating more advanced transformations
-* Building analytical datasets for reporting
-* Connecting the final data to Power BI
-* Implementing CI/CD for deployment
 
 ## Conclusion
 
